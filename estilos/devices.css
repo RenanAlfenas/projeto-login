@@ -1,0 +1,334 @@
+@charset "UTF-8";
+
+/* tablet: 768 - 992px
+   desktop: 992 - 1200px
+    grandes telas: acima de 1200px */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ------------------- TABLET ------------------------ */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    :root {
+    --cor1: #016FA4;
+    --cor2: #040740;
+    --cor3: #3182C9;
+    --cor4: #00D6F6;
+    --cor5: #0A37BF;
+}
+
+body, html {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    background-image: linear-gradient(to top, var(--cor2), var(--cor4) );
+}
+
+main {
+    position: relative;
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 25px 20px rgba(0, 0, 0, 0.233);
+    width: 600px;
+    height: 400px;
+    
+}
+
+form {
+    padding: 0px;
+}
+
+div#imagem {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url("../imagens/imagem\ chave.jpg");
+    background-position: center top;
+    background-size: cover;
+    border-radius: 20px 0px 0px 20px;
+    width: 220px;
+    height: 400px;
+    margin: 0px;
+
+}
+
+div#login {
+    margin-top: 290px;
+}
+
+div#login h1 {
+    position: absolute;
+    top: 50px;
+    left: 350px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+div#login p {
+    position: absolute;
+    top: 120px;
+    left: 220px;
+    width: 350px;
+    font-size: 0.9em;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 10px;
+}
+
+form {
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+span#icoemail {
+    position: absolute;
+    top: 200px;
+    left: 225px;
+    color:#00D6F6;    
+}
+
+span#icosenha {
+    position: absolute;
+    top: 230px;
+    left: 225px;
+    color:#00D6F6;    
+}
+
+form input#idemail {
+    margin-bottom: 5px;
+    background-color: var(--cor4);
+    position: absolute;
+    top: 200px;
+    left: 255px;
+    border-radius: 5px;
+    height: 20px;
+    width: 290px;  
+
+}
+
+input#idsenha {
+    margin-bottom: 5px;
+    background-color: var(--cor4);
+    position: absolute;
+    top: 230px;
+    left: 255px;
+    border-radius: 5px;
+    height: 20px;
+    width: 290px;  
+
+}
+
+form input#entrar {
+    background-color: var(--cor3);
+    position: absolute;
+    top: 270px;
+    left: 250px;
+    border: 1px solid #00D6F6;
+    width: 200px;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+input#lembrar {
+    background-color: white;
+    position: absolute;
+    top: 320px;
+    left: 250px;
+    border: 1px solid #016FA4;
+    width: 200px;
+    height: 25px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+form input#lembrar:hover {
+    cursor: pointer;
+    background-color: #6aabe4;
+    color: rgb(0, 0, 0);
+}
+
+form input#entrar:hover {
+    cursor: pointer;
+    background-color: #6aabe4;
+    color: rgb(0, 0, 0);
+}
+    
+}
+
+
+
+/* ------------------- COMPUTADOR ------------------------ */
+
+@media screen and (min-width: 992px) {
+
+
+body, html {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    background-image: linear-gradient(to top, var(--cor2), var(--cor4) );
+}
+
+main {
+    position: relative;
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 25px 20px rgba(0, 0, 0, 0.233);
+    width: 900px;
+    height: 450px;
+    
+}
+
+form {
+    padding: 0px;
+}
+
+div#imagem {
+    position: absolute;
+    top: 0px;
+    left: 75.5%;
+    background-image: url("../imagens/imagem\ chave.jpg");
+    background-position: center top;
+    background-size: cover;
+    border-radius: 0px 20px 20px 0px;
+    width: 220px;
+    height: 450px;
+    margin: 0px;
+
+}
+
+div#login {
+    margin-top: 290px;
+}
+
+div#login h1 {
+    position: absolute;
+    top: 50px;
+    left: 310px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+
+div#login p {
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    width: 650px;
+    font-size: 1.5em;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 10px;
+}
+
+form {
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+span#icoemail {
+    position: absolute;
+    top: 210px;
+    left: 225px;
+    color:#00D6F6;    
+}
+
+span#icosenha {
+    position: absolute;
+    top: 250px;
+    left: 225px;
+    color:#00D6F6;    
+}
+
+form input#idemail {
+    margin-bottom: 5px;
+    background-color: var(--cor4);
+    position: absolute;
+    top: 210px;
+    left: 255px;
+    border-radius: 5px;
+    height: 20px;
+    width: 290px;  
+
+}
+
+input#idsenha {
+    margin-bottom: 5px;
+    background-color: var(--cor4);
+    position: absolute;
+    top: 250px;
+    left: 255px;
+    border-radius: 5px;
+    height: 20px;
+    width: 290px;  
+
+}
+
+form input#entrar {
+    background-color: var(--cor3);
+    position: absolute;
+    top: 280px;
+    left: 250px;
+    border: 1px solid #00D6F6;
+    width: 200px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+input#lembrar {
+    background-color: white;
+    position: absolute;
+    top: 340px;
+    left: 250px;
+    border: 1px solid #016FA4;
+    width: 200px;
+    height: 35px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+form input#lembrar:hover {
+    cursor: pointer;
+    background-color: #6aabe4;
+    color: rgb(0, 0, 0);
+}
+
+form input#entrar:hover {
+    cursor: pointer;
+    background-color: #6aabe4;
+    color: rgb(0, 0, 0);
+}
+
+
+}

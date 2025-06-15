@@ -36,6 +36,8 @@ section {
     box-shadow: 10px 25px 20px rgba(0, 0, 0, 0.233);
     width: 300px;
     height: 600px;
+    transition: width 0.3s, heght 0.3s;
+    transition-timing-function: ease;
 }
 
 form {
@@ -88,6 +90,8 @@ form input#idemail, input#idsenha {
     border-radius: 5px;
     height: 20px;
     width: 240px;  
+    transition: width 0.8s;
+    
 }
 
 form input#entrar {
@@ -99,6 +103,8 @@ form input#entrar {
     margin-bottom: 10px;
     margin-left: 40px;
     border-radius: 5px;
+    
+    
 }
 
 input#lembrar {
@@ -122,3 +128,4 @@ form input#entrar:hover {
     background-color: #6aabe4;
     color: rgb(0, 0, 0);
 }
+
