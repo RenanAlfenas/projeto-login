@@ -114,11 +114,11 @@ input#lembrar {
 form input#lembrar:hover {
     cursor: pointer;
     background-color: #6aabe4;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 form input#entrar:hover {
     cursor: pointer;
     background-color: #6aabe4;
-    color: white;
+    color: rgb(0, 0, 0);
 }
