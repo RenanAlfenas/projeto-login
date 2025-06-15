@@ -1,0 +1,7 @@
+paleta de cores projeto
+
+#016FA4
+#040740
+#3182C9
+#00D6F6
+#0A37BF
