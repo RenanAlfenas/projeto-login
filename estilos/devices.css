@@ -28,6 +28,7 @@ body, html {
 
 body {
     background-image: linear-gradient(to top, var(--cor2), var(--cor4) );
+    background-size: cover;
 }
 
 main {
