@@ -80,11 +80,24 @@ form {
     font-size: 0.9em;
 }
 
-span {
+span#icoemail {
+    position: absolute;
+    top: 400px ;
+    left: 10px;
     color:#00D6F6;    
 }
 
-form input#idemail, input#idsenha {
+span#icosenha {
+    position: absolute;
+    top: 430px ;
+    left: 10px;
+    color:#00D6F6;    
+}
+
+form input#idemail {
+    position: absolute;
+    top: 400px;
+    left: 40px;
     margin-bottom: 5px;
     background-color: var(--cor4);
     border-radius: 5px;
@@ -94,10 +107,32 @@ form input#idemail, input#idsenha {
     
 }
 
+form div#divemail {
+    background-color: var(--cor4);
+    
+    width: 280px;
+    height: 20px;
+}
+
+input#idsenha {
+    position: absolute;
+    top: 430px;
+    left: 40px;
+    margin-bottom: 5px;
+    background-color: var(--cor4);
+    border-radius: 5px;
+    height: 20px;
+    width: 240px;  
+    transition: width 0.8s;
+}
+
 form input#entrar {
     background-color: var(--cor3);
     border: 1px solid #00D6F6;
     width: 200px;
+    position: absolute;
+    top: 455px;
+    left: 20px;
     height: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -110,6 +145,9 @@ form input#entrar {
 input#lembrar {
     background-color: white;
     border: 1px solid #016FA4;
+     position: absolute;
+    top: 500px;
+    left: 20px;
     width: 200px;
     height: 25px;
     margin-bottom: 5px;

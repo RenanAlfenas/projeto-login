@@ -39,7 +39,7 @@ section {
     top: 50%;
     left: 50%;
     transform: translate(-50%, 40%);
-    background-color: white;
+    background-image: linear-gradient(45deg, var(--cor3),white);
     border-radius: 20px;
     box-shadow: 10px 25px 20px rgba(0, 0, 0, 0.233);
     width: 600px;
@@ -98,14 +98,14 @@ span#icoemail {
     position: absolute;
     top: 200px;
     left: 225px;
-    color:#00D6F6;    
+    color:white;    
 }
 
 span#icosenha {
     position: absolute;
     top: 230px;
     left: 225px;
-    color:#00D6F6;    
+    color:white;    
 }
 
 form input#idemail {
@@ -198,7 +198,7 @@ section {
     top: 50%;
     left: 50%;
     transform: translate(-50%, 40%);
-    background-color: white;
+    background-image: linear-gradient(45deg, var(--cor3),white);
     border-radius: 20px;
     box-shadow: 10px 25px 20px rgba(0, 0, 0, 0.233);
     width: 900px;
@@ -213,7 +213,7 @@ form {
 div#imagem {
     position: absolute;
     top: 0px;
-    left: 75.5%;
+    left: 76%;
     background-image: url("../imagens/imagem\ chave.jpg");
     background-position: center top;
     background-size: cover;
@@ -257,14 +257,14 @@ span#icoemail {
     position: absolute;
     top: 210px;
     left: 225px;
-    color:#00D6F6;    
+    color:white;    
 }
 
 span#icosenha {
     position: absolute;
     top: 250px;
     left: 225px;
-    color:#00D6F6;    
+    color:white;    
 }
 
 form input#idemail {
